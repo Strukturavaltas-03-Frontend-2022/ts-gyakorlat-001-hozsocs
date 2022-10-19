@@ -1,6 +1,14 @@
 export default class calculator {
     // A változókat az osztályon belül így hozhatod létre.
     active: boolean = false;
+    members: number= 11;
+    baseColor: number = 0xa3f4d5;
+    role: number = 0b1001;
+    systemID: number = 0o7700;
+    average: number = 4.5;
+    adminName: string = "gdg";
+    sumPoints: string = `Members have ${this.members * this.average} szorzata> points`;
+   
 
     // Hozd létre a következő változókat a megfelelő típusannotációval.
     /** @type {number} members - value: 11 */
